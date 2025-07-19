@@ -1,0 +1,19 @@
+class Main {
+    public static void main(String[] args) {
+        String email[]={"anupriya216@gmail.com","anu1986@gmail.com","john@gmail.com"};
+        String st=email[1];
+        int alphabetcount=0;
+        int charactercount=0;
+        int numberscount=0;
+        for(int i=0;i<st.length();i++){
+            if(st.charAt(i)>=48 && st.charAt(i)<=57){
+                numberscount++;
+            }else if(st.charAt(i)>=97 && st.charAt(i)<=122){
+                alphabetcount++;
+            }else{
+                charactercount++;
+            }
+        }
+        System.out.println(numberscount+" "+alphabetcount+" "+charactercount);
+    }
+}
