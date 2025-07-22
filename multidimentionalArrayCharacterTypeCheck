@@ -1,7 +1,4 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
-class Main {
+class Main{
     public static void main(String[] args) {
         String array[][]={{"anupriya@gamil.com","anu2003@gmail.com"},{"john@gmail.com","sita@gmail.com"}};
         String a1[]=array[0];
